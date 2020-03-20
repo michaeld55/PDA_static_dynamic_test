@@ -20,7 +20,7 @@ class CardGame
     return card # This should return card1
   else
     return card2
-  end
+  end #This WHOLE If statement should be indented (Method would work if other errors fixed but doesn't follow normal style)
 end #This end is not in line with start of this method (method would run if errors above were fixed but doesn't follow normal style)
 end #This is an extra end and is not needed
 
@@ -30,5 +30,5 @@ def self.cards_total(cards) #As unsure what cards is when it's an argument this 
     total += card.value
     return "You have a total of" + total # This return line should be outside the loop and it should return "You have a total of #{total}"
   end
-end
+end #An extra end is needed for the Class.
 ```
